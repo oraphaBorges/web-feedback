@@ -30,6 +30,7 @@
         <li class="nav-item">
           <router-link class="nav-link" to="/admin">Admin</router-link>
         </li>
+        
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <span class="px-2">username</span>
@@ -74,6 +75,7 @@ a,a:hover,a:active,a:visited{
 .logo{
   display: flex;
   align-content: center;
+  margin-right: 100px;
   img{
     width: 127px;
   }
