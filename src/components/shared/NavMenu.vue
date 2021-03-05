@@ -3,10 +3,10 @@
   <div class="container d-flex justify-content-around">
     
     <div class="navbar-brand ">
-      <a href="index" class="logo">
+      <router-link class="logo" to="/">
         <img :src="img" alt="logo practice">
         <span>Mural</span>
-      </a>
+      </router-link>
     </div>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
