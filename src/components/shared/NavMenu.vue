@@ -4,7 +4,7 @@
     
     <div class="navbar-brand ">
       <a href="index" class="logo">
-        <img src="" alt="logo practice">
+        <img :src="img" alt="logo practice">
         <span>Mural</span>
       </a>
     </div>
@@ -52,12 +52,36 @@
 </nav>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { Component, Vue } from 'vue-property-decorator';
 
-}
+@Component({
+  components: {
+  },
+  data(){
+    return {
+      img:require('@/assets/img/logo-practice.png'),
+    }
+  },
+})
+export default class NavMenu extends Vue {}
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+a,a:hover,a:active,a:visited{
+  text-decoration: none;
+} 
+.logo{
+  display: flex;
+  align-content: center;
+  img{
+    width: 127px;
+  }
+  span{
+    font-size: 1.3em;
+    color:#012970;
+    font-weight: 700;
+    text-decoration: none;
+  }
+}
 </style>
