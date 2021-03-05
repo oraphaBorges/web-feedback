@@ -6,7 +6,7 @@
             <p>Acompanhe aqui os serviços solicitados pelo clientes do PRACTICE</p>
         </div>
         <div class="col-sm-12 col-md-5">
-            <img class="img-service" :src="img" alt="">
+            <img class="img-service" :src="img" alt="imagem ilustrativa de gerencia">
         </div>
     </div>
     <hr>
